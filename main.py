@@ -23,6 +23,26 @@ def contact():
 def review():
 	return render_template('review.html')
 
+@app.route('/horror')
+def horror():
+	return render_template('horror.html')
+
+@app.route('/romance')
+def romance():
+	return render_template('romance.html')
+
+@app.route('/action')
+def action():
+	return render_template('action.html')
+
+@app.route('/recomm')
+def recomm():
+	return render_template('recomm.html')
+
+@app.route('/con')
+def con():
+	return render_template('con.html')
+
 
 
 if __name__ == '__main__':

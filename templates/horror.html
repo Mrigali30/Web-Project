@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Movie Review</title>
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="static/fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<link rel="stylesheet" href="static/style.css">
+		
+		
+
+	</head>
+
+
+	<body>
+		
+
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="index.html" id="branding">
+						<img src="static/images/logo.png" alt="" class="logo">
+						<div class="logo-copy">
+							<h1 class="site-title">Movie 2 watch</h1>
+							
+						</div>
+					</a> <!-- #branding -->
+
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item current-menu-item"><a href={{url_for('index')}}>Home</a></li>
+							
+							<li class="menu-item"><a href={{url_for('review')}}>Movie reviews</a></li>
+							<li class="menu-item"><a href={{url_for('contact')}}>Contact</a></li>
+						</ul> <!-- .menu -->
+
+						<form action="#" class="search-form">
+							<input type="text" placeholder="Search...">
+							<button><i class="fa fa-search"></i></button>
+						</form>
+					</div> <!-- .main-navigation -->
+
+					<div class="mobile-navigation"></div>
+				</div>
+			</header>
+			<main class="main-content">
+				<div class="container">
+					<div class="page">
+						<div class="breadcrumbs">
+							<a href="index.html">Home</a>
+							<span>Movie Review</span>
+						</div>
+
+						<div class="filters">
+							<ul class="menu">
+							<li class="menu-item current-menu-item"><a href={{url_for('romance')}}>Romance</a></li>
+							
+							<li class="menu-item"><a href={{url_for('review')}}>Action</a></li>
+							<li class="menu-item"><a href={{url_for('horror')}}>Horror</a></li>
+						</ul> <!-- .menu -->
+						</div>
+						<div class="movie-list">
+							<div class="movie">
+								<figure class="movie-poster"><img src="static/dummy/4._grave_encounters.png" alt="#"></figure>
+								<div class="movie-title"><a href=https://in.bookmyshow.com/?utm_source=Google&utm_medium=CPC_NonBranded&utm_campaign=android/ios_cinema_tickets&gclid=CjwKCAjwssvPBRBBEiwASFoVdz65U2_-EO_Vy8e3S_HFr1rh0u4flJTF7YuC0D23gljXWWfV6MP0mxoC_KAQAvD_BwE>Maleficient</a></div>
+								
+							</div>
+							<div class="movie">
+								<figure class="movie-poster"><img src="static/dummy/maxresdefault (1).jpg" alt="#"></figure>
+								<div class="movie-title"><a href=https://in.bookmyshow.com/?utm_source=Google&utm_medium=CPC_NonBranded&utm_campaign=android/ios_cinema_tickets&gclid=CjwKCAjwssvPBRBBEiwASFoVdz65U2_-EO_Vy8e3S_HFr1rh0u4flJTF7YuC0D23gljXWWfV6MP0mxoC_KAQAvD_BwE>Maleficient</a></div>
+								
+							</div>
+							<div class="movie">
+								<figure class="movie-poster"><img src="static/dummy/18.jpg" alt="#"></figure>
+								<div class="movie-title"><a href=https://in.bookmyshow.com/?utm_source=Google&utm_medium=CPC_NonBranded&utm_campaign=android/ios_cinema_tickets&gclid=CjwKCAjwssvPBRBBEiwASFoVdz65U2_-EO_Vy8e3S_HFr1rh0u4flJTF7YuC0D23gljXWWfV6MP0mxoC_KAQAvD_BwE>Maleficient</a></div>
+								
+							</div>
+							<div class="movie">
+								<figure class="movie-poster"><img src="static/dummy/bcf66918c9ae04855bc3b72c6abe0d89--horror-icons-horror-films.jpg" alt="#"></figure>
+								<div class="movie-title"><a href=https://in.bookmyshow.com/?utm_source=Google&utm_medium=CPC_NonBranded&utm_campaign=android/ios_cinema_tickets&gclid=CjwKCAjwssvPBRBBEiwASFoVdz65U2_-EO_Vy8e3S_HFr1rh0u4flJTF7YuC0D23gljXWWfV6MP0mxoC_KAQAvD_BwE>Maleficient</a></div>
+								
+							</div>
+							<!--<div class="movie">
+								<figure class="movie-poster"><img src="static/images/Action-film-picture.jpg" alt="#"></figure>
+								<div class="movie-title"><a href="https://in.bookmyshow.com/?utm_source=Google&utm_medium=CPC_NonBranded&utm_campaign=android/ios_cinema_tickets&gclid=CjwKCAjwssvPBRBBEiwASFoVdz65U2_-EO_Vy8e3S_HFr1rh0u4flJTF7YuC0D23gljXWWfV6MP0mxoC_KAQAvD_BwE">Maleficient</a></div>
+								
+							</div>
+							<div class="movie">
+								<figure class="movie-poster"><img src="static/images/DirectAction.Lundgren.Theatricalposter.2004.jpg" alt="#"></figure>
+								<div class="movie-title"><a href="https://in.bookmyshow.com/?utm_source=Google&utm_medium=CPC_NonBranded&utm_campaign=android/ios_cinema_tickets&gclid=CjwKCAjwssvPBRBBEiwASFoVdz65U2_-EO_Vy8e3S_HFr1rh0u4flJTF7YuC0D23gljXWWfV6MP0mxoC_KAQAvD_BwE"">Maleficient</a></div>
+								
+							</div>
+							
+							<div class="movie">
+								<figure class="movie-poster"><img src="static/images/DirectAction.Lundgren.Theatricalposter.2004.jpg" alt="#"></figure>
+								<div class="movie-title"><a href="https://in.bookmyshow.com/?utm_source=Google&utm_medium=CPC_NonBranded&utm_campaign=android/ios_cinema_tickets&gclid=CjwKCAjwssvPBRBBEiwASFoVdz65U2_-EO_Vy8e3S_HFr1rh0u4flJTF7YuC0D23gljXWWfV6MP0mxoC_KAQAvD_BwE">Maleficient</a></div>
+								
+							</div>
+							<div class="movie">
+								<figure class="movie-poster"><img src="static/images/MadMaxFuryRoad-645x369.jpg" alt="#"></figure>
+								<div class="movie-title"><a href="https://in.bookmyshow.com/?utm_source=Google&utm_medium=CPC_NonBranded&utm_campaign=android/ios_cinema_tickets&gclid=CjwKCAjwssvPBRBBEiwASFoVdz65U2_-EO_Vy8e3S_HFr1rh0u4flJTF7YuC0D23gljXWWfV6MP0mxoC_KAQAvD_BwE">Maleficient</a></div>
+								
+							</div>
+							<div class="movie">
+								<figure class="movie-poster"><img src="static/images/maxresdefault (2).jpg" alt="#"></figure>
+								<div class="movie-title"><a href="https://in.bookmyshow.com/?utm_source=Google&utm_medium=CPC_NonBranded&utm_campaign=android/ios_cinema_tickets&gclid=CjwKCAjwssvPBRBBEiwASFoVdz65U2_-EO_Vy8e3S_HFr1rh0u4flJTF7YuC0D23gljXWWfV6MP0mxoC_KAQAvD_BwE">Maleficient</a></div>
+								
+							</div>-->
+						</div> <!-- .movie-list -->
+
+						
+					</div>
+				</div> <!-- .container -->
+			</main>
+			<footer class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="widget">
+								<h3 class="widget-title">About Us</h3>
+								<p>Free movies online, here you can watch movies online in high quality for free without annoying of advertising, just come and enjoy your movies online. You can also book for movies using chatbot.  </p>
+							</div>
+						</div>
+						
+						
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Join Us</h3>
+								<ul class="no-bullet">
+									<li><a href="#">Lcbhksagchscv</a></li>
+									<li><a href="#">Schsgccture</a></li>
+									<li><a href="#">Dolcgjhasgygashjcvnm</a></li>
+									<li><a href="#">Igsgjcvse</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="widget">
+								<h3 class="widget-title">Social Media</h3>
+								<ul class="no-bullet">
+									<li>Facebook</li>
+									<li>Twitter</li>
+									<li>Google+</li>
+									<li>Pinterest</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="widget">
+								<h3 class="widget-title">Newsletter</h3>
+								<form action="#" class="subscribe-form">
+									<input type="text" placeholder="Email Address">
+								</form>
+							</div>
+						</div>
+					</div> <!-- .row -->
+
+					<div class="colophon">Copyright @ Group 1. All rights reserved</div>
+				</div> <!-- .container -->
+
+			</footer>
+		</div>
+		<!-- Default snippet for navigation -->
+		
+
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>

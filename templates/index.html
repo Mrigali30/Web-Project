@@ -28,15 +28,14 @@
 						<img src="static/images/logo.png" alt="" class="logo">
 						<div class="logo-copy">
 							<h1 class="site-title">Movie 2 watch</h1>
-							
 						</div>
 					</a> <!-- #branding -->
-
 					<div class="main-navigation">
 						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
 						<ul class="menu">
 							<li class="menu-item current-menu-item"><a href={{url_for('index')}}>Home</a></li>
-							<li class="menu-item"><a href={{url_for('about')}}>About</a></li>
+							<li class="menu-item"><a href="http://movierecommender.pythonanywhere.com/">Content Based Recomm</a></li>
+							<li class="menu-item"><a href={{url_for('recomm')}}>Collaborative Based Recomm </a></li>
 							<li class="menu-item"><a href={{url_for('review')}}>Movie reviews</a></li>
 							<li class="menu-item"><a href={{url_for('contact')}}>Contact</a></li>
 						</ul> <!-- .menu -->
@@ -46,7 +45,6 @@
 							<button><i class="fa fa-search"></i></button>
 						</form>
 					</div> <!-- .main-navigation -->
-
 					<div class="mobile-navigation"></div>
 				</div>
 			</header>
@@ -57,9 +55,9 @@
 							<div class="col-md-9">
 								<div class="slider">
 									<ul class="slides">
-										<li><a href="#"><img src="static/dummy/1.jpg" alt="Slide 1"></a></li>
+										<li><a href="#"><img src="static/dummy/titanicver21.jpg" alt="Slide 1"></a></li>
 										<li><a href="#"><img src="static/dummy/2.jpg" alt="Slide 2"></a></li>
-										<li><a href="#"><img src="static/dummy/3.jpg" alt="Slide 3"></a></li>
+										<li><a href="#"><img src="static/dummy/The-Longest-Ride_2015-1-300x443.jpg" alt="Slide 3"></a></li>
 										
 									</ul>
 								</div>
@@ -157,13 +155,13 @@
 		<!-- Default snippet for navigation -->
 		
 
-		<script type="text/javascript">
+		    <script type="text/javascript">
 		var headID = document.getElementsByTagName("head")[0];
 		var newCss = document.createElement('link');
 		newCss.rel = 'stylesheet';
 		newCss.type = 'text/css';
-		window._botUsername = '656867';
-		window._botName = 'BOOK TICKET';
+		window._botUsername = '659082';
+		window._botName = 'Book-My-Theater';
 		newCss.href = "http://rebot.me/assets/css/bot.css";
 		var newScript = document.createElement('script');
 		newScript.src = "http://rebot.me/assets/js/bot.js";
@@ -171,6 +169,7 @@
 		headID.appendChild(newScript);
 		headID.appendChild(newCss);
 		</script>
+
 		<script src="static/js/jquery-1.11.1.min.js"></script>
 		<script src="static/js/plugins.js"></script>
 		<script src="static/js/app.js"></script>
